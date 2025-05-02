@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notifikasi Grup Penuh</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .notification {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 320px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .notification img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .notification .content {
+      flex: 1;
+    }
+
+    .notification .content h4 {
+      margin: 0 0 4px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .notification .content p {
+      margin: 0;
+      font-size: 14px;
+      color: #65676b;
+    }
+  </style>
+</head>
+<body>
+
+<div class="notification">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Facebook_Messenger_4_Logo.svg" alt="Messenger Icon" />
+  <div class="content">
+    <h4>Grup Penuh</h4>
+    <p>Anda tidak dapat bergabung ke grup saat ini karena jumlah anggota sudah mencapai batas maksimal.</p>
+  </div>
+</div>
+
+</body>
+</html>
